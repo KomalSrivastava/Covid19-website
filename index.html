@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device=width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid-19 Tracker Website</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">C<span class="fas fa-virus"></span>vid-19</a>
+        <div id="menu"><i class="fas fa-bars"></i>
+
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#protect">Protection</a></li>
+                <li><a href="#symtoms">Symptoms</a></li>
+                <li><a href="#precautions">Precautions</a></li>
+                <li><a href="#spread">Spread News</a></li>
+                <li><a href="login.html">Login/SignUp</a></li>
+                <img src="Images/moon.svg" id="icon">
+            </ul>
+        </nav>
+    </header>
+    <!---------------------------------------------------->
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Covid-Website</h2>
+            <form>
+                <a href="details.html" class="btn">Details</a>
+                <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                    data-payment_button_id="pl_HY0Be66cRO00vH" async> </script>
+            </form>
+        </div>
+        </div>
+        <div class="image">
+            <img src="Images/background.svg" alt="">
+        </div>
+    </section>
+    <!------------------------------------------------------>
+    <section class="protect" id="protect">
+        <h1 class="heading">Take steps to <span> Protect </span> yourself and your dear ones</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/hands.png" alt="">
+                <h2>Wash Hands</h2>
+                <p>Wash your hands properly.Continue minimum 20mins.Use sanitizer in public places.</p>
+                <p>Wash your hands properly for minimum 20 seconds.Use sanitizer in public places.</p>
+                <a href="Wash_hands.html" class="btn">Learn More</a>
+            </div>
+            <div class="box">
+                <img src="Images/mask.png" alt="">
+                <h2>Wear Mask</h2>
+                <p>Wash your hands properly.Continue minimum 20mins.Use sanitizer in public places.</p>
+                <p>Do not forget to wear your masks in public places to avoid any exposure to the deadly virus.</p>
+                <a href="Wear_mask.html" class="btn">Learn More</a>
+            </div>
+            <div class="box">
+                <img src="Images/vaccination.png" alt="">
+                <h2>Get Vaccinate</h2>
+                <p>Wash your hands properly.Continue minimum 20mins.Use sanitizer in public places.</p>
+                <p>Get your vaccine shots to ensure utmost safety from the deadly virus.</p>
+                <a href="Get_vaccinated.html" class="btn">Learn More</a>
+            </div>
+            <div class="box">
+                <img src="Images/testkit.png" alt="">
+                <h2>Test Yourself</h2>
+                <p>Wash your hands properly.Continue minimum 20mins.Use sanitizer in public places.</p>
+                <p>Get your COVID-19 test with test kit or go to nearest health care center if feeling unwell.</p>
+                <a href="test_covid19.html" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------------------------------->
+    <section class="symtoms" id="symtoms">
+        <div class="content">
+            <h1 class="heading"><span>What are the main</span> Symptoms </h1>
+            <ul>
+                <div class="symtoms1">
+                    <li>High Fever</li>
+                    <li>Dry Cough</li>
+                    <li>Headache</li>
+                </div>&nbsp; &nbsp;
+                <div class="symtoms2">
+                    <li>Sore Throat</li>
+                    <li>Joint Pains</li>
+                    <li>Breathing Issues</li>
+                </div>
+            </ul>
+            <a href="causes.html" class="btn">Know More</a>
+        </div>
+        <div class="image">
+            <img src="Images/symtoms.png" alt="">
+        </div>
+    </section>
+    <!------------------------------------------------------------------------->
+    <section class="precautions" id="precautions">
+        <div class="row">
+            <div class="image">
+                <img src="Images/precuations.png" alt="">
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="content">
+                <h1 class="heading">Things <span>NOT to do </span> during covid</h1>
+                <br>
+                <ul>
+                    <li>Share your food with others</li>
+                    <li>Be in Public Places unnecessarily</li>
+                    <li>Greet people by handshaking</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="content">
+                <h1 class="heading"><span>Things To do </span> during covid</h1>
+                <br>
+                <ul>
+                    <li>Maintain a 6-feet distance from others</li>
+                    <li>Use a sanitizer regularly</li>
+                    <li>Wear Mask in a proper manner</li>
+                    <li>Wash your hands for at least 20-30 seconds</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="Images/precuations1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------------------------------------------>
+    <section class="spread" id="spread">
+        <h1 class="heading">How Covid-19<span> spreads </span> over the world</h1>
+        <div class="image">
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------->
+    <section class="graph" id="graph">
+        <h1>Cases across the globe</h1>
+        <div class="counter-container">
+            <div class="counter-box">
+                <span>Total Cases</span>
+                <span id="total" class="counter">569804329</span>
+            </div>
+
+            <div class="counter-box">
+                <span>Total Deaths</span>
+                <span id="dead" class="counter">6380992</span>
+            </div>
+
+            <div class="counter-box">
+                <span>Total Recovered</span>
+                <span id="recovered" class="counter">1812</span>
+            </div>
+
+            <div class="counter-box">
+                <span>New Cases</span>
+                <span id="active" class="counter">608614</span>
+            </div>
+
+
+            <div class="counter-box">
+                <span>New Deaths</span>
+                <span id="new_death" class="counter">0</span>
+            </div>
+
+            <div class="counter-box">
+                <span>New Recovered</span>
+                <span id="new_recovered" class="counter">0</span>
+            </div>
+        </div>
+        <script type="text/javascript">
+            let data = {};
+            const url = "https://api.covid19api.com/summary";
+            async function getapi(url) {
+                const res = await fetch(url);
+                const string = await res.json();
+                data["new"] = parseInt(string["Global"].NewConfirmed);
+                data["total"] = parseInt(string["Global"].TotalConfirmed);
+                data["dead"] = parseInt(string["Global"].TotalDeaths);
+                data["new_death"] = parseInt(string["Global"].NewDeaths);
+                data["new_recovered"] = parseInt(string["Global"].NewRecovered);
+                data["recovered"] = parseInt(string["Global"].TotalRecovered);
+
+            }
+            getapi(url);
+            setTimeout(function () {
+                console.log(typeof data);
+                console.log(data);
+                document.getElementById("total").innerHTML = data["total"];
+                document.getElementById("dead").innerHTML = data["dead"];
+                document.getElementById("active").innerHTML = data["new"];
+                document.getElementById("new_death").innerHTML = data["new_death"];
+                document.getElementById("new_recovered").innerHTML = data["new_recovered"];
+                document.getElementById("recovered").innerHTML = data["recovered"];
+            }, 1000);        
+        </script>
+        <script>
+            jQuery(document).ready(function ($) {
+                $('.counter').counterUp({
+                    delay: 10,
+                    time: 3000
+                });
+            });
+        </script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+        <!------------------------------------------------------>
+        <h1>Country Wise Report</h1><br><br>
+        <div class="covid-chart">
+            <div class="stats">
+                <div class="latest-report">
+                    <div class="country">
+                        <div class="name">Loading...</div>
+                        <div class="change-country">change</div>
+                        <div class="search-country hide">
+                            <div class="search-box">
+                                <input type="text" id="search-input" placeholder="Search Country..." />
+                                <img class="close" src="./images/close.svg">
+                            </div>
+                            <div class="country-list"></div>
+                        </div>
+                    </div>
+                    <div class="total-cases">
+                        <div class="title">Total Cases</div>
+                        <div class="value">0</div>
+                        <div class="new-value">+0</div>
+                    </div>
+                    <div class="recovered">
+                        <div class="title">Recovered</div>
+                        <div class="value">0</div>
+                        <div class="new-value">+0</div>
+                    </div>
+                    <div class="deaths">
+                        <div class="title">Deaths</div>
+                        <div class="value">0</div>
+                        <div class="new-value">+0</div>
+                    </div>
+                </div>
+                <div class="chart">
+                    <canvas id="axes_line_chart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+            integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+        <script src="chart.js"></script>
+    </section>
+    <!------------------------------------------------------------------------------>
+    <section class="grid" id="grid">
+        <div class="image">
+        </div>
+    </section>
+    <!------------------------------------------------------------------------------>
+    <section class="news" id="news">
+        <h1 class="heading">Latest News Updates For Today</h1>
+        <br></br>
+        <div class="livenews">
+            <a href="https://www.worldometers.info/coronavirus/country/india/">Updates On Worldometer</a>
+            <br /><br />
+            <div class="livenews1">
+                <a href="https://www.who.int/">WHO Live Updates </a>
+                <br></br>
+                <a href="https://www.bbc.com/news/coronavirus">BBC Live Updates </a>
+                <br></br>
+                <a href="https://www.covid19india.org/"> Covid19 India </a>
+                <br></br>
+                <a href="https://www.news18.com/coronavirus-latest-news/"> News18 Live Updates </a>
+                <br></br>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h2>About Us</h2>
+                <p>Contact Us and stay updated 😷</p>
+
+                <button type="button" class=" button-download btn btn-block btn-dark btn-primary"
+                    style="background-color: white; color: black; cursor: pointer;"><i class="fab fa-apple"
+                        style="color:black"></i>
+                    Download</button>
+                <button type="button" class=" button-download btn btn-block btn-light btn-primary"
+                    style="background-color: white; color: black; cursor: pointer;"><i class="fab fa-google-play"
+                        style="color:black"></i> Download</button>
+
+            </div>
+            <div class="box">
+                <h2>Locations</h2>
+                <a href="#">India</a>
+                <a href="#">Usa</a>
+                <a href="#">Russia</a>
+                <a href="#">Spain</a>
+                <a href="#">Etc</a>
+            </div>
+            <div class="box">
+                <h2>Navbars</h2>
+                <a href="#home">Home</a>
+                <a href="#protect">Protection</a>
+                <a href="#symtoms">Symtoms</a>
+                <a href="#precautions">Precautions</a>
+                <a href="#spread">Spread News</a>
+            </div>
+            <div class="box">
+                <h2>Contact Info</h2>
+                <p>mumbai, 12345</p>
+                <p>mumbai,India-12345</p>
+                <p>abc@gmail.com</p>
+                <div class="share">
+                    <!-- <a href="#" aria-label="instagram-profile-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="facebook-profile-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="twitter-profile-link"><i class="fab fa-twitter"></i></a> -->
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <h1 class="credit"><a href="#">Developed By Komal</a></h1>
+    </section>
+
+    <!---------------------------------->
+    <a href="#home" class="scroll-top" aria-label="scroll-top-icon">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!------------------------------------------------------------------------------>
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "Images/sun.svg";
+            } else {
+                icon.src = "Images/moon.svg";
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+
+
+    <!-------------------------------------------------------------------->
+</body>
+
+</html>

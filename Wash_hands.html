@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device=width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Wash Hands</title>
+    <style>
+        body {
+            margin: 50px;
+            padding: 55;
+            font-size: 16px;
+            background-position: center;
+            background-color: rgb(243, 248, 251);
+            color: rgb(0, 0, 0);
+            -webkit-animation: 4s linear 0s infinite alternate move_eye;
+            animation: 4s linear 0s infinite alternate move_eye;
+        }
+
+        p,
+        li {
+            font-weight: bold;
+            line-height: 40px;
+        }
+
+        h1 {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .image {
+            width: 100%;
+        }
+
+        /* Three image containers (use 25% for four, and 50% for two, etc) */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 90px;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        span {
+            color: rgb(0, 0, 0);
+            -webkit-animation: 4s linear 0s infinite alternate move_eye;
+            animation: 4s linear 0s infinite alternate move_eye;
+        }
+
+        :-webkit-any(article, aside, nav, section) h1 {
+            font-size: 1.5em;
+        }
+    </style>
+
+<body>
+    <div>
+        <a href="index.html" class="btn">Back</a>
+    </div>
+    <!-------------------------------------------------------------->
+    <h1><span>Wash Hands</span></h1>
+    <br><br><br>
+    <div class="row">
+        <div class="column">
+            <h2>How Germs Spread</h2>
+            <p>You can stay healthy and stop the spread of respiratory and diarrheal illnesses by washing your hands
+                frequently. Individuals can contract germs from surfaces or from other people when you:</p>
+            <ul>
+                <li>Touch your eyes, nose, and mouth with unwashed hands</li>
+                <li>Prepare or eat food and drinks with unwashed hands</li>
+                <li>Touch surfaces or objects that have germs on them</li>
+                <li>Blow your nose, cough, or sneeze into hands and then touch other people’s hands or common objects
+                </li>
+            </ul>
+        </div>
+        <div class="column">
+            <img class="image" src="/Images/germs.jpg" alt="">
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="row">
+        <div class="column">
+            <h2>Key Times to Wash Hands</h2>
+            <p>Washing your hands frequently will help you and those you care about stay healthy, especially during
+                these times when you are most likely to pick up and spread germs:</p>
+            <ul>
+                <li>Before, during, and after preparing food</li>
+                <li>Before and after eating food</li>
+                <li>Before and after caring for someone at home who is sick with vomiting or diarrhea</li>
+                <li>Before and after treating a cut or wound</li>
+                <li>After using the toilet</li>
+                <li>After changing diapers or cleaning up a child who has used the toilet</li>
+                <li>After blowing your nose, coughing, or sneezing</li>
+                <li>After touching an animal, animal feed, or animal waste</li>
+                <li>After handling pet food or pet treats</li>
+                <li>After touching garbage</li>
+            </ul>
+        </div>
+        <div class="column">
+            <img class="image" src="/Images/sneeze.jpg" alt="">
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="row">
+        <div class="column">
+            <h2>Follow Five Steps to Wash Your Hands the Right Way</h2>
+            <p>One of the simplest and most reliable ways to stop the spread of germs is to wash your hands. Maintaining
+                clean hands can help prevent the transmission of germs across our communities, including your home,
+                place of employment, schools, and childcare facilities.</p>
+            <ol>
+                <li>Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap.</li>
+                <li>Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between
+                    your fingers, and under your nails.</li>
+                <li>Scrub your hands for at least 20 seconds. Need a timer? Hum the “Happy Birthday” song from beginning
+                    to end twice.</li>
+                <li>Rinse your hands well under clean, running water.</li>
+                <li>Dry your hands using a clean towel or air dry them.</li>
+            </ol>
+        </div>
+        <div class="column">
+            <img class="image" src="/Images/wash.jpg" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
